@@ -1,7 +1,7 @@
 import { CiBookmark } from "react-icons/ci";
 
-export default function Blog({ blog }) {
-  console.log(blog);
+export default function Blog({ blog, handleAddToBookmark, handleReadingTime }) {
+  //   console.log(blog);
   const {
     author_img,
     author,
@@ -32,7 +32,7 @@ export default function Blog({ blog }) {
         </div>
         <div className="flex items-center gap-2 text-xl text-gray-500">
           <span>{reading_time} min read</span>
-          <button>
+          <button onClick={() => handleAddToBookmark(blog)}>
             <CiBookmark className=""></CiBookmark>
           </button>
         </div>
@@ -45,9 +45,13 @@ export default function Blog({ blog }) {
           </span>
         ))}
       </div>
-      <a className="text-lg text-violet-500 font-bold underline" href="#">
+      <button
+        onClick={() => handleReadingTime(reading_time)}
+        className="text-lg text-violet-500 font-bold underline"
+        href="#"
+      >
         Mark as read
-      </a>
+      </button>
       <hr className="border-b my-6" />
     </div>
   );
