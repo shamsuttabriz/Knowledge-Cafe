@@ -3,6 +3,7 @@ import { CiBookmark } from "react-icons/ci";
 export default function Blog({ blog, handleAddToBookmark, handleReadingTime }) {
   //   console.log(blog);
   const {
+    id,
     author_img,
     author,
     blog_title,
@@ -46,7 +47,7 @@ export default function Blog({ blog, handleAddToBookmark, handleReadingTime }) {
         ))}
       </div>
       <button
-        onClick={() => handleReadingTime(reading_time)}
+        onClick={() => handleReadingTime(id, reading_time)}
         className="text-lg text-violet-500 font-bold underline"
         href="#"
       >

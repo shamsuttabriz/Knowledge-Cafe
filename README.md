@@ -14,4 +14,4 @@ Knowledge Cafe is a straightforward React project that serves as a learning hub,
 - Count total Blog reading Time
 - Bookmark Blog
 
-#### [🔗 Live Link](https://www.google.com)
+#### [🔗 Live Link](https://wise-way.surge.sh/)

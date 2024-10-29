@@ -12,9 +12,12 @@ function App() {
     setBookmarks(newBookmarks);
   };
 
-  const handleReadingTime = (time) => {
+  const handleReadingTime = (id, time) => {
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime);
+    // Remove Bookmark after read blog
+    const newBookMarks = bookmarks.filter((bookmark) => bookmark.id !== id);
+    setBookmarks(newBookMarks);
   };
   return (
     <div className="md:container mx-auto font-exo">
