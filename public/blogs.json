@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_img": "https://i.ibb.co.com/px15CjG/blog-img1.jpg",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co.com/jWkj6RH/author.jpg",
+    "post_date": "2024-10-28",
+    "reading_time": 5,
+    "blog_title": "10 Tips for Efficient Web Development",
+    "hash_tags": ["#WebDevelopment", "#Coding", "#Programming"]
+  },
+  {
+    "id": 2,
+    "cover_img": "https://i.ibb.co.com/hCpDcF2/blog-img2.jpg",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co.com/jWkj6RH/author.jpg",
+    "post_date": "2024-10-20",
+    "reading_time": 8,
+    "blog_title": "How to Get Started with JavaScript",
+    "hash_tags": ["#JavaScript", "#Beginner", "#Frontend"]
+  },
+  {
+    "id": 3,
+    "cover_img": "https://i.ibb.co.com/HT8PC9W/blog-img3.jpg",
+    "author": "Emily Brown",
+    "author_img": "https://i.ibb.co.com/jWkj6RH/author.jpg",
+    "post_date": "2024-10-15",
+    "reading_time": 6,
+    "blog_title": "The Future of AI in Web Design",
+    "hash_tags": ["#AI", "#WebDesign", "#TechTrends"]
+  },
+  {
+    "id": 4,
+    "cover_img": "https://i.ibb.co.com/pW6gh3L/blog-img4.jpg",
+    "author": "Michael Lee",
+    "author_img": "https://i.ibb.co.com/jWkj6RH/author.jpg",
+    "post_date": "2024-10-10",
+    "reading_time": 7,
+    "blog_title": "Understanding CSS Grid and Flexbox",
+    "hash_tags": ["#CSS", "#Grid", "#Flexbox"]
+  },
+  {
+    "id": 5,
+    "cover_img": "https://i.ibb.co.com/TvNN1Bm/blog-img5.jpg",
+    "author": "Sophia Wilson",
+    "author_img": "https://i.ibb.co.com/jWkj6RH/author.jpg",
+    "post_date": "2024-10-05",
+    "reading_time": 9,
+    "blog_title": "Responsive Web Design Best Practices",
+    "hash_tags": ["#ResponsiveDesign", "#MobileFirst", "#WebDev"]
+  }
+]
